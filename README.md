@@ -65,3 +65,7 @@ In order to summarize, this what deep Q learning needs:
 *   A couple of neural networks.
 *   A memory to keep track of states.
 *   Lots of GPU horsepower to handle the training.
+
+# Frameworks
+
+We should preferably use a framework that lets you use a GPU for the training. Both **tensorflow** and **pytorch** are great choices. and support [model checkpointing](https://www.analyticsvidhya.com/blog/2021/03/improving-your-deep-learning-model-using-model-checkpointing-implementation-part-2/) and we will take advantage of both of them in this repository.
